@@ -42,4 +42,4 @@ jobs:
 
           # Потом деплой приложения
           kubectl apply -f k3s/deployment.yaml
-          kubectl apply -f k3s/service.yaml
+          kubectl apply -f k3s/Service.yaml

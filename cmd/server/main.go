@@ -5,8 +5,8 @@ import (
     "log"
     "net/http"
     "os"
-    "scheta/internal/db"
-    "scheta/internal/handlers"
+    "accounts/internal/db"
+    "accounts/internal/handlers"
 )
 
 func main() {

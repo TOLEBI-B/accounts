@@ -1,4 +1,4 @@
-module scheta
+module accounts
 
 go 1.21
 

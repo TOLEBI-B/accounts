@@ -3,7 +3,7 @@ package handlers
 import (
     "encoding/json"
     "net/http"
-    "scheta/internal/db"
+    "accounts/internal/db"
 )
 
 func GetAccounts(store *db.Store) http.HandlerFunc {

@@ -19,4 +19,4 @@ spec:
         - containerPort: 9000
         env:
         - name: DATABASE_URL
-          value: "postgres://postgres:Zxcvbnm123@postgres:5432/exp5?sslmode=disable"
+          value: "postgres://user:password@postgres:5432/accountsdb?sslmode=disable"

@@ -17,7 +17,7 @@ func main() {
 
     store, err := db.NewStore(dbURL)
     if err != nil {
-        log.Fatalf("failed to connect db pg: %v", err)
+        log.Fatalf("failed to connect db pgbd: %v", err)
     }
 
     http.HandleFunc("/accounts", handlers.GetAccounts(store))
